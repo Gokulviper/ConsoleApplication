@@ -142,6 +142,7 @@ public class Game {
         for (int i = 0; i < game.length; i++) {
             System.out.print(i+" ");
         }
+
         System.out.println();
         System.out.print("-------------");
         System.out.println();
