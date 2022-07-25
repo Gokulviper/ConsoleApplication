@@ -20,8 +20,6 @@ public class Interface {
             int opt=sc.nextInt();
             switch (opt){
                 case 1:
-
-
                         System.out.println("enter user name");
                     String  uName = sc.next();
                         System.out.println("enter passWord");
