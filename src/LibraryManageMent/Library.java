@@ -11,9 +11,13 @@ public class Library {
     static List<Book>Books=new ArrayList<>();
     static Map<Integer,Book>bookIdentifier=new HashMap<>();
     static Map<Integer,Member>memberIdentifier=new HashMap<>();
+   static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         addMembers();
         addBooks();
+        while (true){
+            System.out.println("1)member login\n 2)library manager\n");
+        }
     }
 
     private static void addBooks() {
